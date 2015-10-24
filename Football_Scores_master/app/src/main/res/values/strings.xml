@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Football Scores</string>
+    <string name="action_settings">Settings</string>
+    <string name="test_text">Test</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="championsLeague">UEFA Champions League</string>
+    <string name="bundesliga">Bundesliga</string>
+    <string name="premierLeague">Premier League</string>
+    <string name="primeraDivison">Primera Division</string>
+    <string name="seriaa">Seria A</string>
+    <string name="share_text">Share</string>
+    <string name="about">About</string>
+    <string name="about_text">
+        This Application get Football Matches Score for the Premier League,Seria A,Bundesliga,Primera Division
+        and the Uefa Champions League.
+        All Matches data are acquired from football-data.org free API.
+        All team Logos are acquired from http://hdlogo.wordpress.com/ upon requesting permission form the owner.
+        The original version of this app was created by Yahia Khalid Ibn El Walid Ahmed, and a modified version is given to students in the Udacity Android Nanodegree program.
+        To report any bugs,or suggestions do not hesitate to send a mail to y.k.ibnelwalid@gmail.com.
+
+        During the off season, fake data will be added to the app.
+    </string>
+    <string name="api_key" translatable="false">put_your_api_key_here</string>
+    <string name="dummy_data" translatable="false">{\"timeFrameStart\":\"2015-06-18\",\"timeFrameEnd\":\"2015-06-19\",\"count\":1,\"fixtures\":[{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}},{\"_links\":{\"self\":{\"href\":\"http://api.football-data.org/alpha/fixtures/140514\"},\"soccerseason\":{\"href\":\"http://api.football-data.org/alpha/soccerseasons/357\"},\"homeTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/275\"},\"awayTeam\":{\"href\":\"http://api.football-data.org/alpha/teams/263\"}},\"date\":\"2015-06-19T22:00:00Z\",\"status\":\"FINISHED\",\"matchday\":42,\"homeTeamName\":\"TESTING1\",\"awayTeamName\":\"TESTING2\",\"result\":{\"goalsHomeTeam\":2,\"goalsAwayTeam\":4}}]}</string>
+    <string name="footballScoresHashtag">#Football_Scores</string>
+    <string name="plainTextMimeType" translatable="false">text/plain</string>
+    <string name="shareTextTemplate" formatted="false">%s %s %s </string>
+    <string name="scoresDbFileName" translatable="false">Scores.db</string>
+    <string name="scoresTable" translatable="false">scores_table</string>
+    <string name="createScoresTableSql" formatted="false" translatable="false">
+        CREATE TABLE %s (
+            %s INTEGER PRIMARY KEY,
+            %s TEXT NOT NULL,
+            %s INTEGER NOT NULL,
+            %s TEXT NOT NULL,
+            %s TEXT NOT NULL,
+            %s INTEGER NOT NULL,
+            %s TEXT NOT NULL,
+            %s TEXT NOT NULL,
+            %s INTEGER NOT NULL,
+            %s INTEGER NOT NULL,
+            UNIQUE (%s) ON CONFLICT REPLACE);
+    </string>
+    <string name="dropScoresTableSql" formatted="false" translatable="false">
+        DROP TABLE IF EXISTS %s
+    </string>
+    <string name="teamArsenalLondonFc">Arsenal FC</string>
+    <string name="teamAstonVilla">Aston Villa FC</string>
+    <string name="teamBurney">Burney FC</string>
+    <string name="teamChelsea">Chelsea FC</string>
+    <string name="teamCrystalPalace">Crystal Palace FC</string>
+    <string name="teamEvertonFc">Everton FC</string>
+    <string name="teamHullCity">Hull City</string>
+    <string name="teamLeicesterCity">Leicester City FC</string>
+    <string name="teamManchesterUnitedFc">Manchester United FC</string>
+    <string name="teamRealMadrid">Real Madrid CF</string>
+    <string name="teamStokeCityFc">Stoke City FC</string>
+    <string name="teamSunderlandAfc">Sunderland AFC</string>
+    <string name="teamSwanseaCity">Swansea City FC</string>
+    <string name="teamTottenhemHotspurFc">Tottenham Hotspur FC</string>
+    <string name="teamWestBromwichAlbion">West Bromwich Albion</string>
+    <string name="teamWestHamUnitedFc">West Ham United FC</string>
+    <string name="matchDay6">Group Stages, Matchday : 6</string>
+    <string name="matchDayFirstKnockoutRound">First Knockout round</string>
+    <string name="matchDayQuarterFinal">QuarterFinal</string>
+    <string name="matchDaySemiFinal">SemiFinal</string>
+    <string name="matchDayFinal">Final</string>
+    <string name="matchDayDefault">Match Day : </string>
+    <string name="teamUnknown">Not known League Please report</string>
+    <string name="shareThisGame">Share this game</string>
+    <string name="dateFormat">yyyy-MM-dd</string>
+    <string name="empty_scores_list">No scores available</string>
+    <string name="title_widget_scores">Football Scores Widget</string>
+    <string name="emptyScore">" - "</string>
+    <string name="scoreTemplate" formatted="false">%s - %s</string>
+    <string name="dateTimeFormat">yyyy-MM-dd h:m:s</string>
+
+</resources>

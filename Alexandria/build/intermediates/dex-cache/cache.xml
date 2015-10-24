@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Shawn\Documents\GitHub\Super_Duo\Alexandria\app\build\intermediates\jacoco\jacocoagent.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="05d4f9e6f36f58a60dc65a4b1af30ee76201a530">
+        <dex dex="C:\Users\Shawn\Documents\GitHub\Super_Duo\Alexandria\app\build\intermediates\pre-dexed\debug\jacocoagent-b30497e796ed794b6631f44348f1076f995726fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Shawn\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Shawn\Documents\GitHub\Super_Duo\Alexandria\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-7fee098e039ee6c5eab1d213369fc66cef7f158d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Shawn\Documents\GitHub\Super_Duo\Alexandria\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.8.2\jars\libs\zbar.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="C:\Users\Shawn\Documents\GitHub\Super_Duo\Alexandria\app\build\intermediates\pre-dexed\debug\zbar-6b0205b9b7ebde1564ba1a930d6748ca19b6a371.jar" />
+    </item>
+    <item
+        jar="C:\Users\Shawn\Documents\GitHub\Super_Duo\Alexandria\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Shawn\Documents\GitHub\Super_Duo\Alexandria\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-4f9627c9d9626f8e56957b464f59bbca23d72190.jar" />
+    </item>
+    <item
+        jar="C:\Users\Shawn\Documents\GitHub\Super_Duo\Alexandria\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Shawn\Documents\GitHub\Super_Duo\Alexandria\app\build\intermediates\pre-dexed\debug\classes-68dfc236604bc02f360543c3541a16a2541c6939.jar" />
+    </item>
+    <item
+        jar="C:\Users\Shawn\Documents\GitHub\Super_Duo\Alexandria\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.8.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="15f1c7a4c01dd95b6da8c5acfaf42d2075d1ae2a">
+        <dex dex="C:\Users\Shawn\Documents\GitHub\Super_Duo\Alexandria\app\build\intermediates\pre-dexed\debug\classes-f912fc33120f9aa784b0a8d279109c6106d2a14a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Shawn\Documents\GitHub\Super_Duo\Alexandria\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Shawn\Documents\GitHub\Super_Duo\Alexandria\app\build\intermediates\pre-dexed\debug\classes-b7956a4df06d424d58ccf9d05a4c639c6a43af5b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Shawn\Documents\GitHub\Super_Duo\Alexandria\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.8.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="96c83d4de6289a3f674165f896ac992564a7138d">
+        <dex dex="C:\Users\Shawn\Documents\GitHub\Super_Duo\Alexandria\app\build\intermediates\pre-dexed\debug\classes-73fa24f1237fcc1bcadb81d789e753fcf8bf9cc1.jar" />
+    </item>
+
+</items>
